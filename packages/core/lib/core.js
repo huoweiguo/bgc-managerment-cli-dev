@@ -2,5 +2,5 @@
 
 const utils = require('@bgc-managerment-cli-dev/utils')
 
-utils()
+utils.getMsg()
 console.log('hsdhhddh')

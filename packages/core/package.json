@@ -16,5 +16,9 @@
   "scripts": {
     "test": "node ./__tests__/core.test.js",
     "dev": "echo \"running dev from core\""
+  },
+  "gitHead": "411d55a728844f17d2914be6936018cc242edef4",
+  "publishConfig": {
+    "access": "public"
   }
 }

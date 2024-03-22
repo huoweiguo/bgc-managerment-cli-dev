@@ -6,7 +6,7 @@ function utils() {
   return 'Hello from utils'
 }
 
-function Date() {
+function getMessage() {
   var d = new Date()
   return d
 }

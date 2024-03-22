@@ -1,12 +1,9 @@
-'use strict'
+#! /usr/bin/env node
 
 module.exports = utils
-
 function utils() {
-  return 'Hello from utils'
+  console.log('utils run ...')
 }
-
-function getMessage() {
-  var d = new Date()
-  return d
+function getMsg() {
+  console.log('this msg is utils')
 }

@@ -1,11 +1,6 @@
-'use strict'
+#! /usr/bin/env node
 
-module.exports = core
+const utils = require('@bgc-managerment-cli-dev/utils')
 
-function core() {
-  return 'Hello from core'
-}
-
-function request() {
-  return 'haha'
-}
+utils()
+console.log('hsdhhddh')

@@ -10,12 +10,18 @@
     "lib": "lib",
     "test": "__tests__"
   },
+  "bin": {
+    "bgc-managerment-cli-dev": "lib/core.js"
+  },
   "files": [
     "lib"
   ],
   "scripts": {
     "test": "node ./__tests__/core.test.js",
     "dev": "echo \"running dev from core\""
+  },
+  "dependencies": {
+    "@bgc-managerment-cli-dev/utils": "file:../utils"
   },
   "gitHead": "8d94b1342b09a54517d0f06845207a8ebb0c08bd",
   "publishConfig": {

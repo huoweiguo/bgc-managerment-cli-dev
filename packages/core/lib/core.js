@@ -1,7 +1,11 @@
-'use strict';
+'use strict'
 
-module.exports = core;
+module.exports = core
 
 function core() {
-  return 'Hello from core';
+  return 'Hello from core'
+}
+
+function request() {
+  return 'haha'
 }
